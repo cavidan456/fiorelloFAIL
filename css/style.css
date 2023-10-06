@@ -1,0 +1,146 @@
+*{
+    background-color: #fff;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav>ul {
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+nav>ul>li{
+    padding: 0 70px;
+
+}
+
+nav>ul>li>ul {
+    position: absolute;
+    padding: 20px 0;
+}
+
+/* HOME */
+
+#homeBottom{
+    width: 150px;
+    display: none;
+}
+
+#home:hover #homeBottom {
+    display: block;
+    
+}
+
+/* pages */
+
+#pagesBottom {
+    display: none;
+    width: 120px;
+}
+
+#pages:hover #pagesBottom{
+    display: block;
+}
+
+/* PORTFOLIO */
+
+#portBottom{
+    display: none;
+    height: 120px;
+}
+
+#port:hover #portBottom{
+    display: block;
+}
+
+#lytBottom{
+    position: relative;
+    left:120px;
+    width: 120px;
+    gap: 0 40px;
+    display: none;
+}
+
+#layouts:hover  #lytBottom{
+    display: block;
+}
+
+#singleBottom {
+    display: none;
+}
+
+#single:hover #singleBottom {
+    display: block;
+}
+
+/* BOLG */
+
+#blogBottom {
+    display: none;
+}
+
+#blog:hover #blogBottom {
+    display: block;
+}
+
+#postBottom {
+    display: none;
+}
+
+#post:hover #postBottom {
+    display: block;
+}
+
+/* elements */
+
+#elementsBottom {
+    display: none;
+}
+
+#elements:hover #elementsBottom{
+    display: block;
+}
+
+#classicBottom {
+    display: none;
+}
+
+#classic:hover #classicBottom {
+    display: block; 
+}
+
+#infographicBottom  {
+    display: none;
+}
+
+#infographic:hover #infographicBottom {
+    display: block;
+}
+
+#interactiveBottom {
+    display: none;
+}
+
+#interactive:hover #interactiveBottom {
+    display: block;
+}
+
+#typographyBottom {
+    display: none;
+}
+
+#typography:hover #typographyBottom {
+    display: block;
+}
+
